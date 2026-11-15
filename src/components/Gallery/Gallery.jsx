@@ -13,7 +13,7 @@ import './Gallery.css';
 const GALLERY_ITEMS = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=85&auto=format&fit=crop',
+    src: '/studio-camile-simas/images/unhas.jpg',
     alt: 'Alongamento de unhas em gel com acabamento nude',
     category: 'Unhas',
     colSpan: 1,
@@ -21,7 +21,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=800&q=85&auto=format&fit=crop&crop=face',
+    src: '/studio-camile-simas/images/sobrancelhas.jpg',
     alt: 'Design de sobrancelhas modeladas com precisão',
     category: 'Sobrancelhas',
     colSpan: 1,
@@ -29,7 +29,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=800&q=85&auto=format&fit=crop&crop=face',
+    src: '/studio-camile-simas/images/cilios.jpg',
     alt: 'Extensão de cílios volume russo',
     category: 'Cílios',
     colSpan: 1,
@@ -37,26 +37,10 @@ const GALLERY_ITEMS = [
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=85&auto=format&fit=crop&crop=face',
+    src: '/studio-camile-simas/images/micropigmentacao.webp',
     alt: 'Micropigmentação labial com técnica aquarela',
     category: 'Micropigmentação',
     colSpan: 2,
-    rowSpan: 1,
-  },
-  {
-    id: 5,
-    src: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=800&q=85&auto=format&fit=crop',
-    alt: 'Unhas decoradas com nail art delicada',
-    category: 'Unhas',
-    colSpan: 1,
-    rowSpan: 1,
-  },
-  {
-    id: 6,
-    src: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=85&auto=format&fit=crop&crop=face',
-    alt: 'Resultado de cílios naturais com extensão clássica',
-    category: 'Cílios',
-    colSpan: 1,
     rowSpan: 1,
   },
 ];
