@@ -10,6 +10,7 @@ import './Services.css';
 const SERVICES = [
   {
     id: 'unhas',
+    // Unhas em gel — close up de mãos com unhas feitas
     image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80&auto=format&fit=crop',
     title: 'Alongamento de Unhas',
     subtitle: 'Gel & Fibra de Vidro',
@@ -19,7 +20,8 @@ const SERVICES = [
   },
   {
     id: 'cilios',
-    image: 'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=600&q=80&auto=format&fit=crop',
+    // Extensão de cílios — close up de olho com cílios aplicados
+    image: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=600&q=80&auto=format&fit=crop&crop=face',
     title: 'Extensão de Cílios',
     subtitle: 'Volume Russo & Clássico',
     description:
@@ -28,7 +30,8 @@ const SERVICES = [
   },
   {
     id: 'sobrancelhas',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80&auto=format&fit=crop',
+    // Design de sobrancelhas — rosto feminino com sobrancelhas definidas
+    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=600&q=80&auto=format&fit=crop&crop=face',
     title: 'Design de Sobrancelhas',
     subtitle: 'Modelagem & Henna',
     description:
@@ -37,7 +40,8 @@ const SERVICES = [
   },
   {
     id: 'micropigmentacao',
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80&auto=format&fit=crop',
+    // Micropigmentação labial — close up de lábios com maquiagem
+    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=80&auto=format&fit=crop&crop=face',
     title: 'Micropigmentação Labial',
     subtitle: 'Técnica Aquarela',
     description:

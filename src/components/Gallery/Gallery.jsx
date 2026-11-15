@@ -13,6 +13,7 @@ import './Gallery.css';
 const GALLERY_ITEMS = [
   {
     id: 1,
+    // Unhas em gel — close up nude/rose
     src: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=85&auto=format&fit=crop',
     alt: 'Alongamento de unhas em gel com acabamento nude',
     category: 'Unhas',
@@ -21,7 +22,8 @@ const GALLERY_ITEMS = [
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=85&auto=format&fit=crop',
+    // Sobrancelhas — rosto feminino com make e sobrancelhas definidas
+    src: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=800&q=85&auto=format&fit=crop&crop=face',
     alt: 'Design de sobrancelhas modeladas com precisão',
     category: 'Sobrancelhas',
     colSpan: 1,
@@ -29,7 +31,8 @@ const GALLERY_ITEMS = [
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=800&q=85&auto=format&fit=crop',
+    // Cílios — close up de olho com cílios extensão
+    src: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=800&q=85&auto=format&fit=crop&crop=face',
     alt: 'Extensão de cílios volume russo',
     category: 'Cílios',
     colSpan: 1,
@@ -37,7 +40,8 @@ const GALLERY_ITEMS = [
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=85&auto=format&fit=crop',
+    // Micropigmentação labial — close up lábios com batom/pigmento
+    src: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=85&auto=format&fit=crop&crop=face',
     alt: 'Micropigmentação labial com técnica aquarela',
     category: 'Micropigmentação',
     colSpan: 2,
@@ -45,7 +49,8 @@ const GALLERY_ITEMS = [
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=800&q=85&auto=format&fit=crop',
+    // Unhas — nail art delicada com detalhes
+    src: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&q=85&auto=format&fit=crop&crop=bottom',
     alt: 'Unhas decoradas com nail art delicada',
     category: 'Unhas',
     colSpan: 1,
@@ -53,7 +58,8 @@ const GALLERY_ITEMS = [
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=800&q=85&auto=format&fit=crop',
+    // Cílios — resultado natural extensão clássica
+    src: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=85&auto=format&fit=crop&crop=face',
     alt: 'Resultado de cílios naturais com extensão clássica',
     category: 'Cílios',
     colSpan: 1,
