@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // O "base" precisa ser o nome exato do repositório no GitHub
 // para que os assets carreguem corretamente no GitHub Pages.
-// Repositório: https://github.com/gonabbis/studio-camile-simas
+// Repositório: https://github.com/Cook-de-programa/studio-camile-simas
 export default defineConfig({
   plugins: [react()],
   base: '/studio-camile-simas/',
