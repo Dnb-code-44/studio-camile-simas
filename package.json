@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://cook-de-programa.github.io/studio-camile-simas",
+  "homepage": "https://dnb-code-44.github.io/studio-camile-simas",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
