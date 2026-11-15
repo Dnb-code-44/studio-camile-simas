@@ -1,0 +1,159 @@
+/* ── Booking / CTA Section ──────────────────────────────────── */
+.booking {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-bg-dark);
+  padding-block: clamp(var(--space-20), 10vw, var(--space-32));
+}
+
+/* ── Background shapes ────────────────────────────────────────── */
+.booking__bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.booking__bg-shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.18;
+}
+
+.booking__bg-shape--1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--color-gold) 0%, transparent 70%);
+  top: -200px;
+  right: -150px;
+}
+
+.booking__bg-shape--2 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, var(--color-brown-mid) 0%, transparent 70%);
+  bottom: -100px;
+  left: -100px;
+}
+
+/* ── Inner ────────────────────────────────────────────────────── */
+.booking__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.booking__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+/* ── Icon ─────────────────────────────────────────────────────── */
+.booking__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid rgba(201, 169, 110, 0.25);
+  color: var(--color-gold-light);
+  margin-bottom: var(--space-6);
+}
+
+/* ── Label ────────────────────────────────────────────────────── */
+.booking__label {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  margin-bottom: var(--space-4);
+}
+
+/* ── Title ────────────────────────────────────────────────────── */
+.booking__title {
+  font-family: var(--font-serif);
+  font-size: clamp(var(--text-2xl), 4.5vw, var(--text-4xl));
+  font-weight: 500;
+  color: var(--color-white);
+  line-height: 1.2;
+  margin-bottom: var(--space-5);
+}
+
+.booking__title-em {
+  font-style: italic;
+  color: var(--color-gold-light);
+}
+
+/* ── Text ─────────────────────────────────────────────────────── */
+.booking__text {
+  font-size: var(--text-md);
+  color: rgba(255, 255, 255, 0.60);
+  line-height: 1.75;
+  font-weight: 300;
+  margin-bottom: var(--space-6);
+}
+
+/* ── Ornament ─────────────────────────────────────────────────── */
+.booking__ornament {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 160px;
+  margin-bottom: var(--space-8);
+}
+
+.booking__ornament-line {
+  flex: 1;
+  display: block;
+  height: 1px;
+  background: rgba(201, 169, 110, 0.3);
+}
+
+.booking__ornament-diamond {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: var(--color-gold);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* ── CTA button ───────────────────────────────────────────────── */
+.booking__cta {
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-dark) 100%);
+  color: var(--color-white);
+  padding: 1rem 2.25rem;
+  font-size: var(--text-base);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  box-shadow: 0 6px 28px rgba(201, 169, 110, 0.35);
+  margin-bottom: var(--space-5);
+  gap: var(--space-3);
+}
+
+.booking__cta:hover {
+  background: linear-gradient(135deg, var(--color-gold-dark) 0%, var(--color-brown-mid) 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 36px rgba(201, 169, 110, 0.45);
+}
+
+/* ── Footnote ─────────────────────────────────────────────────── */
+.booking__footnote {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.06em;
+}
+
+/* ── Responsividade ───────────────────────────────────────────── */
+@media (max-width: 540px) {
+  .booking__cta {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+}

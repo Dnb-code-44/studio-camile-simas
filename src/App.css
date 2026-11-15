@@ -1,0 +1,14 @@
+/* App.css — estilos globais de layout da aplicação */
+
+/* Garante que o main não sofra colapso de padding
+   por causa do header fixo */
+#main-content {
+  padding-top: var(--header-h);
+}
+
+/* Compensa o padding-top no Hero,
+   que já calcula o offset internamente */
+#main-content > section:first-child {
+  padding-top: 0;
+  margin-top: calc(-1 * var(--header-h));
+}
