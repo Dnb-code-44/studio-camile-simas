@@ -3,15 +3,10 @@ import { WHATSAPP_URL } from '../../config';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
 import './Services.css';
 
-/*
- * Para trocar as imagens, substitua o valor de "image" em cada serviço
- * por um caminho local (ex: "/images/unhas.jpg") ou URL externa.
- */
 const SERVICES = [
   {
     id: 'unhas',
-    // Unhas em gel — close up de mãos com unhas feitas
-    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80&auto=format&fit=crop',
+    image: '/studio-camile-simas/images/unhas.jpg',
     title: 'Alongamento de Unhas',
     subtitle: 'Gel & Fibra de Vidro',
     description:
@@ -20,8 +15,7 @@ const SERVICES = [
   },
   {
     id: 'cilios',
-    // Extensão de cílios — close up de olho com cílios aplicados
-    image: 'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=600&q=80&auto=format&fit=crop&crop=face',
+    image: '/studio-camile-simas/images/cilios.jpg',
     title: 'Extensão de Cílios',
     subtitle: 'Volume Russo & Clássico',
     description:
@@ -30,8 +24,7 @@ const SERVICES = [
   },
   {
     id: 'sobrancelhas',
-    // Design de sobrancelhas — rosto feminino com sobrancelhas definidas
-    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=600&q=80&auto=format&fit=crop&crop=face',
+    image: '/studio-camile-simas/images/sobrancelhas.jpg',
     title: 'Design de Sobrancelhas',
     subtitle: 'Modelagem & Henna',
     description:
@@ -40,8 +33,7 @@ const SERVICES = [
   },
   {
     id: 'micropigmentacao',
-    // Micropigmentação labial — close up de lábios com maquiagem
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=80&auto=format&fit=crop&crop=face',
+    image: '/studio-camile-simas/images/micropigmentacao.webp',
     title: 'Micropigmentação Labial',
     subtitle: 'Técnica Aquarela',
     description:
@@ -56,7 +48,6 @@ export default function Services() {
   return (
     <section id="servicos" className="section services" ref={ref}>
       <div className="container">
-        {/* Cabeçalho */}
         <div className="services__header reveal">
           <p className="section-label">O que oferecemos</p>
           <h2 className="section-title">Serviços especializados<br />para realçar sua beleza</h2>
@@ -66,7 +57,6 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Grid de cards */}
         <div className="services__grid">
           {SERVICES.map((service, i) => (
             <article
@@ -74,7 +64,6 @@ export default function Services() {
               className={`service-card reveal delay-${i + 1}`}
               aria-label={`Serviço: ${service.title}`}
             >
-              {/* Imagem */}
               <div className="service-card__img-wrapper">
                 <img
                   src={service.image}
@@ -88,7 +77,6 @@ export default function Services() {
                 )}
               </div>
 
-              {/* Conteúdo */}
               <div className="service-card__body">
                 <p className="service-card__subtitle">{service.subtitle}</p>
                 <h3 className="service-card__title">{service.title}</h3>
